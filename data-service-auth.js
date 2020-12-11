@@ -19,7 +19,7 @@ let User;
 
 exports.initialize = function(){
     return new Promise((resolve, reject) => {
-        let db = mongoose.createConnection("mongodb+srv://akalsi:<password>@web322a6.ifksm.mongodb.net/<dbname>?retryWrites=true&w=majority");
+        let db = mongoose.createConnection("mongodb+srv://akalsi:Avtar3445@web322a6.ifksm.mongodb.net/<dbname>?retryWrites=true&w=majority");
 
 
         db.on('error', (err)=>{
